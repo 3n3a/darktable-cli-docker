@@ -8,3 +8,4 @@ With the following command:
 ```sh
 find . -type f \( -iname "*.raw" -o -iname "*.nef" \) -exec sh -c 'darktable-cli {} ${0%.*}.jpg' {} \; -delete
 ```
+[Source of Command](https://askubuntu.com/questions/1337760/how-to-bulk-convert-nef-raw-images-to-jpg-and-remove-original-images)
